@@ -6,7 +6,9 @@
 html {
   position: relative;
   min-height: 100%; }
-
+a:hover {
+  text-decoration: none;
+}
 body {
   overflow-x: hidden; }
 
@@ -359,6 +361,7 @@ footer.sticky-footer {
 .breadcrumb { border-radius: 0; background: #082228; }
 .navbar-nav.ml-auto .nav-item.xxs p { color: #ffffff;padding: 10px;margin: 0;}
 .navbar-nav.ml-auto .nav-item.xxs { margin: 0 5px;}
+.navbar-nav.ml-auto .nav-item.xxs.menu { margin: 7px 20px 0 20px;}
 a {color: #4C858C;}
 .table.dataTable.no-footer th.sorting_asc, .table.dataTable.no-footer th.sorting { background: #4c858c; color: #ffffff;}
 .table.dataTable.no-footer tr.odd td { background: #082228; color: #ffffff;}

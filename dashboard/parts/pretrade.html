@@ -1,0 +1,203 @@
+<div ng-include="'inc/menu.html'"></div>
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Mi Dashboard</li>
+      </ol>
+      <div class="row">
+      <div class="col-lg-8">
+        <div class="card mb-3 tabla">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                  <tr>
+                    <th>Cliente</th>
+                    <th>Esperado de Volumen</th>
+                    <th>Esperado de Ingreso</th>
+                    <th>Propuesta de Spread</th>
+                    <th>Porcentaje de Bateo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CL1</td>
+                    <td></td>
+                    <td></td>
+                    <td>0.0003</td>
+                    <td>8 %</td>
+                  </tr>
+                  <tr>
+                    <td>CL2</td>
+                    <td></td>
+                    <td></td>
+                    <td>0.0007</td>
+                    <td>1 %</td>
+                  </tr>
+                  <tr>
+                    <td>CL3</td>
+                    <td></td>
+                    <td></td>
+                    <td>0.0004</td>
+                    <td>4 %</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card mb-2 tabla indicadores">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table indica" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                  <tr>
+                    <th colspan="2">Indicadores</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>19.0012 PIP</td>
+                    <td class="sjn">T/C: MXN $ 19.30</td>
+                  </tr>
+                  <tr>
+                    <td>Liquidez - USD $200,009,302.1234</td>
+                    <td class="sjn">Cantidad de transacciones:<br />782</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Gráfica ejemplo</div>
+        <div class="card-body">
+          <canvas id="myAreaChart" width="100%" height="30"></canvas>
+        </div>
+        <div class="card-footer small text-muted">Actualizado el 11 de Noviembre 11:59 PM</div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-table"></i> Tabla ejemplo</div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered datos" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>CL</th>
+                  <th>SP1</th>
+                  <th>SP2</th>
+                  <th>SP3</th>
+                  <th>SP4</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>CL</th>
+                  <th>SP1</th>
+                  <th>SP2</th>
+                  <th>SP3</th>
+                  <th>SP4</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td class="verde">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="verde">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                  <td class="amarillo">0.0002</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-footer small text-muted">Actualizado a las 11:59 PM</div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <!-- Example Bar Chart Card-->
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-bar-chart"></i> Gráfica de barras</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-8 my-auto">
+                  <canvas id="myBarChart" width="100" height="50"></canvas>
+                </div>
+                <div class="col-sm-4 text-center my-auto">
+                  <div class="h4 mb-0 text-primary">$34,693</div>
+                  <div class="small text-muted">YTD Revenue</div>
+                  <hr>
+                  <div class="h4 mb-0 text-warning">$18,474</div>
+                  <div class="small text-muted">YTD Expenses</div>
+                  <hr>
+                  <div class="h4 mb-0 text-success">$16,219</div>
+                  <div class="small text-muted">YTD Margin</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer small text-muted">Actualizado el 11 de Noviembre 11:59 PM</div>
+          </div>
+          <!-- Card Columns Example Social Feed-->
+
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-pie-chart"></i> Gráfica circular</div>
+            <div class="card-body">
+              <canvas id="myPieChart" width="100%" height="100"></canvas>
+            </div>
+            <div class="card-footer small text-muted">Actualizado a las 11:59 PM</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © Todos los Derechos Reservados 2017</small>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Listo para salir?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
